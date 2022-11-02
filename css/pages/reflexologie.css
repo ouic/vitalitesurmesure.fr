@@ -1,0 +1,124 @@
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* width: 100%; */
+}
+
+#dien-chan {
+  position: relative;
+}
+
+#nouveauté {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+}
+
+#nouveauté img {
+  width: 12rem;
+  height: 10rem;
+}
+
+.flexbox-image-a-droite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  margin: 5% 0% 5% 0%;
+  width: 100%;
+}
+
+.flexbox-image-a-droite .flex-gauche {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+  justify-content: right;
+  flex-grow: 1;
+}
+
+.flexbox-image-a-droite .flex-gauche-haut {
+  font-family: 'Charm', cursive;
+  color: rgb(127, 173, 43);
+  font-size: 2.5rem;
+  text-align: right;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+
+.flexbox-image-a-droite .flex-gauche-bas {
+  font-size: 1.1rem;
+  text-align: right;
+  margin-bottom: 5%;
+}
+
+.flexbox-image-a-droite .flex-droite img {
+  flex-grow: 1;
+  min-width: 30vmin;
+  max-width: 200px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+
+.flexbox-image-a-gauche {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  margin: 5% 0% 5% 0%;
+  width: 100%;
+}
+
+.flexbox-image-a-gauche .flex-gauche img {
+  flex-grow: 1;
+  min-width: 30vmin;
+  max-width: 200px;
+  margin: 2%;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+
+.flexbox-image-a-gauche .flex-droite {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  justify-content: left;
+  flex-grow: 1;
+  margin-bottom: 5%;
+}
+
+.flexbox-image-a-gauche .flex-droite-haut {
+  font-family: 'Charm', cursive;
+  color: #7FAD2B;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+
+.flexbox-image-a-gauche .flex-droite-bas {
+  font-size: 1.1rem;
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.separator {
+  border-bottom: 1px solid rgb(127, 173, 43);
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  padding-bottom: 5%;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+.title {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+}

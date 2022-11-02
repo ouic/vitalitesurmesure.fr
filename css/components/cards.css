@@ -1,0 +1,34 @@
+.card {
+  background: rgba(127, 173, 43, 0.03);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
+  width: 20vmax;
+  /* overflow: hidden; */
+  transition: transform .2s; // Animation
+}
+
+.card:hover {
+  transform: scale(1.03);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background: lighten(rgb(176, 129, 247), 20%);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Charm', cursive;
+  color: #24271f;
+  font-size: 1.7rem;
+  padding: 2%;
+  height: 7rem;
+  vertical-align: middle;
+}
+
+.card img {
+  width: 13vmax;
+  height: 16vmax;
+  margin: 1rem;
+}

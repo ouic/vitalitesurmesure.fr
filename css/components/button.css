@@ -1,0 +1,71 @@
+.btn-fred {
+  font-size: 1.2rem;
+  display: inline-block;
+  background-color: rgb(127, 173, 43);
+  border: 1px solid white;
+  margin: 3%;
+  padding: 1rem;
+  border-radius: 9999px;
+  color: #01110a;
+  text-shadow: none;
+}
+
+.btn-fred:hover {
+  background-color: rgb(47, 64, 15);
+  color: rgb(255, 255, 255);
+}
+
+.btn-secondary {
+  border: 1px solid #103b28;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #103b28;
+}
+
+.links {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+i {
+  font-size: 30px;
+}
+
+.fab {
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 8px;
+  color: rgb(35, 48, 12);
+  top: 20px;
+}
+
+#fab1 {
+  right: 100px;
+}
+
+#fab2 {
+  right: 50px;
+}
+
+.fab:hover {
+  border: 1px solid white;
+  color: rgb(127, 173, 43);
+  background: rgb(35, 48, 12);
+  border-radius: 10px;
+}
+
+.fas {
+  color: rgb(127, 173, 43);
+}
+
+.fas:hover {
+  color: rgb(47, 64, 15);
+  /* background-color: rgba(255, 255, 255,0.5); */
+  border-radius: 10px;
+}
+
+.coordonnées {
+  display: inline-block;
+  justify-content: center;
+}

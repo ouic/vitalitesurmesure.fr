@@ -1,0 +1,98 @@
+.header {
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px; */
+  height: auto;
+  position: relative;
+}
+
+.header.foret {
+  background-image: url(../../images/adventure-beautiful-boardwalk-235734.jpg);
+}
+
+.header.calendrier {
+  background-image: url(../../images/rdv.jpg);
+  padding: 20px 20px;
+}
+
+.full-width-image {
+  background-position: center;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ying-yang {
+  background-image: url(../../images/yin-yang.png);
+  background-size: contain;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+#plantaire {
+  background-image: url(../../images/empreinte_de_pas.png);
+  background-size: contain;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+#fleurs {
+  background-image: url(../../images/pexels-pixabay-158756.jpg);
+  background-size: cover;
+  height: 160px;
+}
+
+.beton {
+  background-image: url(../../images/beton.jpg);
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nenuphar {
+  background-image: url(../../images/nenuphar.JPG);
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.header p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: left;
+}
+
+.logo-vitalitesurmesure {
+  padding: 10px;
+  width: 12vmin;
+}

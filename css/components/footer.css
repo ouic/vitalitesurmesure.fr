@@ -1,0 +1,33 @@
+.footer-nav {
+  margin-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2px;
+  background-color: rgba(22, 31, 7, 0.992);
+}
+
+.footer i {
+  font-size: 12px;
+}
+
+.footer p {
+  font-size: 12px;
+  color: rgb(232, 255, 194);
+}
+
+.footer a {
+  font-size: 12px;
+  color: #6B6C6C;
+  background-color: rgba(127, 173, 43, 0.0);
+}
+
+.omnes-logo {
+  position: absolute;
+  right: 10%;
+  margin-left: 50px;
+  height: 100px;
+}
